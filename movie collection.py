@@ -1,5 +1,5 @@
 import pandas as pd
-collection = pd.read_csv("movie_collection.csv", index_col=0)
+collection = pd.read_csv("movie_collection_test.csv", index_col=0)
 print(collection.columns)
 
 # Well, you have successfully treated data
